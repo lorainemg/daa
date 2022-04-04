@@ -1,2 +1,6 @@
-# daa
-Several problems about the Design and Analysis of Algorithms.
+# DAA Problems
+This repository contains solutions for several problems given in the DAA subject.
+
+## Problem 1
+
+This problem seeks to minimize the total cost of a set of objects that increases as time progresses, where the increase of the latter is not constant, but depends on the distances. between those objects. First, a brute force approach is tested to analyze the characteristics of the problem, obtaining all the possible solutions and returning from these the one with the lowest cost, having a complexity of O(n ∗ n!). After realizing several interesting properties of the problem, an optimization of the previous algorithm is developed, generating fewer permutations to analyze. Then, a recursive solution is carried out in which all possible cases are explored, taking 2 possible decisions with a cost of O(n ∗ 2n). Finally, in order to reduce the complexity of the algorithms, several greedy solutions are developed that seek to minimize the cost of the objects. After several attempts, it is concluded that this approach may not be the right one for resolution.
